@@ -1,0 +1,127 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 1000,
+  "data": [
+    {
+      "id": 10000,
+      "rolename": "role-0",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组0",
+      "desc": "角色信息",
+      "logins": 24,
+      "wealth": 82830700,
+      "classify": "作家",
+      "score": 57
+    },
+    {
+      "id": 10001,
+      "rolename": "role-1",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组1",
+      "desc": "角色信息",
+      "logins": 58,
+      "wealth": 64928690,
+      "classify": "词人",
+      "score": 27
+    },
+    {
+      "id": 10002,
+      "rolename": "role-2",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组2",
+      "desc": "角色信息",
+      "logins": 77,
+      "wealth": 6298078,
+      "classify": "酱油",
+      "score": 31
+    },
+    {
+      "id": 10003,
+      "rolename": "role-3",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组3",
+      "desc": "角色信息",
+      "logins": 157,
+      "wealth": 37117017,
+      "classify": "诗人",
+      "score": 68
+    },
+    {
+      "id": 10004,
+      "rolename": "role-4",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组4",
+      "desc": "角色信息",
+      "logins": 51,
+      "wealth": 76263262,
+      "classify": "作家",
+      "score": 6
+    },
+    {
+      "id": 10005,
+      "rolename": "role-5",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组5",
+      "desc": "角色信息",
+      "logins": 68,
+      "wealth": 60344147,
+      "classify": "作家",
+      "score": 87
+    },
+    {
+      "id": 10006,
+      "rolename": "role-6",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组6",
+      "desc": "角色信息",
+      "logins": 37,
+      "wealth": 57768166,
+      "classify": "作家",
+      "score": 34
+    },
+    {
+      "id": 10007,
+      "rolename": "role-7",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组7",
+      "desc": "角色信息",
+      "logins": 150,
+      "wealth": 82030578,
+      "classify": "作家",
+      "score": 28
+    },
+    {
+      "id": 10008,
+      "rolename": "role-8",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组8",
+      "desc":"角色信息",
+      "logins": 133,
+      "wealth": 16503371,
+      "classify": "词人",
+      "score": 14
+    },
+    {
+      "id": 10009,
+      "rolename": "role-9",
+      "createdate": "2019-01-01 12:12:12",
+      "updatedate": "2019-01-01 12:12:12",
+      "roleGroup": "角色组9",
+      "desc": "角色信息",
+      "logins": 25,
+      "wealth": 86801934,
+      "classify": "词人",
+      "score": 75
+    }
+  ]
+}

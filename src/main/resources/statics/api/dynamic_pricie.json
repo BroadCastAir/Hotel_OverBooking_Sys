@@ -1,0 +1,106 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 10,
+  "data": [
+    {
+      "date": "2020-5-29",
+      "productName": "单人间",
+      "type": "52",
+      "noSell": "48",
+      "priceSuggest": "288",
+      "forecastOccupany": "90",
+      "revenueForecast": "22500",
+      "priceSet": "268",
+      "occupanySet": "92",
+      "revenue": "21800",
+      "status": "0"
+    },
+    {
+      "date": "2020-5-29",
+      "productName": "双人间",
+      "type": "67",
+      "noSell": "33",
+      "priceSuggest": "278",
+      "forecastOccupany": "80",
+      "revenueForecast": "23920",
+      "priceSet": "278",
+      "occupanySet": "80",
+      "revenue": "23920",
+      "status": "0"
+    },{
+      "date": "2020-5-29",
+      "productName": "套间",
+      "type": "20",
+      "noSell": "20",
+      "priceSuggest": "388",
+      "forecastOccupany": "72.5",
+      "revenueForecast": "11600",
+      "priceSet": "388",
+      "occupanySet": "72.5",
+      "revenue": "11600",
+      "status": "0"
+    },{
+      "date": "2020-5-29",
+      "productName": "总统套间",
+      "type": "2",
+      "noSell": "8",
+      "priceSuggest": "568",
+      "forecastOccupany": "80",
+      "revenueForecast": "4800",
+      "priceSet": "628",
+      "occupanySet": "60",
+      "revenue": "3600",
+      "status": "0"
+    },{
+      "date": "2020-5-30",
+      "productName": "单人间",
+      "type": "52",
+      "noSell": "48",
+      "priceSuggest": "288",
+      "forecastOccupany": "90",
+      "revenueForecast": "22500",
+      "priceSet": "268",
+      "occupanySet": "92",
+      "revenue": "21800",
+      "status": "0"
+    },
+    {
+      "date": "2020-5-30",
+      "productName": "双人间",
+      "type": "67",
+      "noSell": "33",
+      "priceSuggest": "278",
+      "forecastOccupany": "80",
+      "revenueForecast": "23920",
+      "priceSet": "278",
+      "occupanySet": "80",
+      "revenue": "23920",
+      "status": "0"
+    },{
+      "date": "2020-5-30",
+      "productName": "套间",
+      "type": "20",
+      "noSell": "20",
+      "priceSuggest": "388",
+      "forecastOccupany": "72.5",
+      "revenueForecast": "11600",
+      "priceSet": "388",
+      "occupanySet": "72.5",
+      "revenue": "11600",
+      "status": "0"
+    },{
+      "date": "2020-5-30",
+      "productName": "总统套间",
+      "type": "2",
+      "noSell": "8",
+      "priceSuggest": "568",
+      "forecastOccupany": "80",
+      "revenueForecast": "4800",
+      "priceSet": "628",
+      "occupanySet": "60",
+      "revenue": "3600",
+      "status": "0"
+    }
+  ]
+}

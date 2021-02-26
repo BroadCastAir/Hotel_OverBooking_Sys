@@ -1,0 +1,106 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 10,
+  "data": [
+    {
+      "date": "2020-5-29",
+      "productName": "单人间",
+      "roomCount": "100",
+      "type": "52",
+      "noSell": "48",
+      "noShow": "12",
+      "overSellRe": "10",
+      "profitForecast": "22500",
+      "overSellSetup": "8",
+      "profitSetup": "22000"
+      ,"status": "0"
+    },
+    {
+      "date": "2020-5-29",
+      "productName": "双人间",
+      "roomCount": "100",
+      "type": "67",
+      "noSell": "33",
+      "noShow": "11",
+      "overSellRe": "8",
+      "profitForecast": "23920",
+      "overSellSetup": "8",
+      "profitSetup": "23920",
+      "status": "0"
+    },{
+      "date": "2020-5-29",
+      "productName": "套间",
+      "roomCount": "40",
+      "type": "20",
+      "noSell": "20",
+      "noShow": "6",
+      "overSellRe": "4",
+      "profitForecast": "11600",
+      "overSellSetup": "2",
+      "profitSetup": "10600"
+      ,"status": "0"
+    },{
+      "date": "2020-5-29",
+      "productName": "总统套间",
+      "roomCount": "10",
+      "type": "2",
+      "noSell": "8",
+      "noShow": "1",
+      "overSellRe": "0",
+      "profitForecast": "4800",
+      "overSellSetup": "2",
+      "profitSetup": "4800",
+      "status": "0"
+    },{
+      "date": "2020-5-30",
+      "productName": "单人间",
+      "roomCount": "100",
+      "type": "52",
+      "noSell": "48",
+      "noShow": "12",
+      "overSellRe": "10",
+      "profitForecast": "22500",
+      "overSellSetup": "8",
+      "profitSetup": "22000"
+    ,"status": "0"
+    },
+    {
+      "date": "2020-5-30",
+      "productName": "双人间",
+      "roomCount": "100",
+      "type": "67",
+      "noSell": "33",
+      "noShow": "11",
+      "overSellRe": "8",
+      "profitForecast": "23920",
+      "overSellSetup": "8",
+      "profitSetup": "23920",
+      "status": "0"
+    },{
+      "date": "2020-5-30",
+      "productName": "套间",
+      "roomCount": "40",
+      "type": "20",
+      "noSell": "20",
+      "noShow": "6",
+      "overSellRe": "4",
+      "profitForecast": "11600",
+      "overSellSetup": "2",
+      "profitSetup": "10600"
+    ,"status": "0"
+    },{
+      "date": "2020-5-30",
+      "productName": "总统套间",
+      "roomCount": "10",
+      "type": "2",
+      "noSell": "8",
+      "noShow": "1",
+      "overSellRe": "0",
+      "profitForecast": "4800",
+      "overSellSetup": "2",
+      "profitSetup": "4800",
+      "status": "0"
+    }
+  ]
+}

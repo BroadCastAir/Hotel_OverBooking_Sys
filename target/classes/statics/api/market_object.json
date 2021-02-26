@@ -1,0 +1,106 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 10,
+  "limit": 5,
+  "data": [
+    {
+      "area": "北京",
+      "hotelName": "北京-五道口店",
+      "date": "2020-5-29",
+      "productName": "单人间",
+      "sellNum": "70",
+      "sellPrice": "400",
+      "sellIncome": "28000",
+      "sellForecast": "30000",
+      "forecastOffset": "2000",
+      "sellPlan": "1",
+      "completeRate": "80"
+    },
+    {
+      "area": "北京",
+      "hotelName": "北京-五道口店",
+      "date": "2020-5-29",
+      "productName": "双人间",
+      "sellNum": "70",
+      "sellPrice": "400",
+      "sellIncome": "28000",
+      "sellForecast": "30000",
+      "forecastOffset": "2000",
+      "sellPlan": "1",
+      "completeRate": "80"
+    },{
+      "area": "北京",
+      "hotelName": "北京-五道口店",
+      "date": "2020-5-29",
+      "productName": "套间",
+      "sellNum": "70",
+      "sellPrice": "400",
+      "sellIncome": "28000",
+      "sellForecast": "30000",
+      "forecastOffset": "2000",
+      "sellPlan": "1",
+      "completeRate": "80"
+    },{
+      "area": "北京",
+      "hotelName": "北京-五道口店",
+      "date": "2020-5-29",
+      "productName": "总统套间",
+      "sellNum": "70",
+      "sellPrice": "400",
+      "sellIncome": "28000",
+      "sellForecast": "30000",
+      "forecastOffset": "2000",
+      "sellPlan": "1",
+      "completeRate": "80"
+    },{
+      "area": "北京",
+      "hotelName": "北京-五道口店",
+      "date": "2020-5-30",
+      "productName": "单人间",
+      "sellNum": "70",
+      "sellPrice": "400",
+      "sellIncome": "28000",
+      "sellForecast": "30000",
+      "forecastOffset": "2000",
+      "sellPlan": "1",
+      "completeRate": "80"
+    },{
+      "area": "北京",
+      "hotelName": "北京-五道口店",
+      "date": "2020-5-30",
+      "productName": "双人间",
+      "sellNum": "70",
+      "sellPrice": "400",
+      "sellIncome": "28000",
+      "sellForecast": "30000",
+      "forecastOffset": "2000",
+      "sellPlan": "1",
+      "completeRate": "80"
+    },{
+      "area": "北京",
+      "hotelName": "北京-五道口店",
+      "date": "2020-5-30",
+      "productName": "套间",
+      "sellNum": "70",
+      "sellPrice": "400",
+      "sellIncome": "28000",
+      "sellForecast": "30000",
+      "forecastOffset": "2000",
+      "sellPlan": "1",
+      "completeRate": "80"
+    },{
+      "area": "北京",
+      "hotelName": "北京-五道口店",
+      "date": "2020-5-30",
+      "productName": "总统套间",
+      "sellNum": "70",
+      "sellPrice": "400",
+      "sellIncome": "28000",
+      "sellForecast": "30000",
+      "forecastOffset": "2000",
+      "sellPlan": "1",
+      "completeRate": "80"
+    }
+  ]
+}

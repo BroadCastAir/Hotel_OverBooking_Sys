@@ -1,0 +1,24 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8011
+  servlet:
+    context-path: /inter-sys
+
+spring:
+  mvc.date-format: yyyy-MM-dd HH:mm:ss
+  jackson.time-zone: GMT+8
+  jackson.date-format: yyyy-MM-dd HH:mm:ss
+  main:
+      allow-bean-definition-overriding: true
+  freemarker:
+    suffix: .html
+    request-context-attribute: request
+
+ribbon:
+  ReadTimeout: 6000000
+  ConnectTimeout: 6000000
+
+logging:
+  level:
+    root: INFO

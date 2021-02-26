@@ -1,0 +1,65 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 1000,
+  "data": [
+    {
+      "id": 10000,
+      "productName": "测评产品1",
+      "type": "人力分析",
+      "importDate": "2019-01-01 12:12:12",
+      "status": "已发布",
+      "desc": "备注信息"
+    },
+    {
+      "id": 10001,
+      "productName": "测评产品1",
+      "type": "人力分析",
+      "importDate": "2019-01-01 12:12:12",
+      "status": "已发布",
+      "desc": "备注信息"
+    },{
+      "id": 10002,
+      "productName": "测评产品1",
+      "type": "人力分析",
+      "importDate": "2019-01-01 12:12:12",
+      "status": "已发布",
+      "desc": "备注信息"
+    },{
+      "id": 10003,
+      "productName": "测评产品1",
+      "type": "人力分析",
+      "importDate": "2019-01-01 12:12:12",
+      "status": "已发布",
+      "desc": "备注信息"
+    },{
+      "id": 10004,
+      "productName": "测评产品1",
+      "type": "人力分析",
+      "importDate": "2019-01-01 12:12:12",
+      "status": "已发布",
+      "desc": "备注信息"
+    },{
+      "id": 10005,
+      "productName": "测评产品1",
+      "type": "人力分析",
+      "importDate": "2019-01-01 12:12:12",
+      "status": "已发布",
+      "desc": "备注信息"
+    },{
+      "id": 10006,
+      "productName": "测评产品1",
+      "type": "人力分析",
+      "importDate": "2019-01-01 12:12:12",
+      "status": "已发布",
+      "desc": "备注信息"
+    },{
+      "id": 10007,
+      "productName": "测评产品1",
+      "type": "人力分析",
+      "importDate": "2019-01-01 12:12:12",
+      "status": "已发布",
+      "desc": "备注信息"
+    }
+  ]
+}

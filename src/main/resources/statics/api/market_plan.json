@@ -1,0 +1,60 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 1000,
+  "data": [
+    {
+      "hotelName": "北京-五道口店",
+      "date": "2020-05-01",
+      "productName": "单人房",
+      "marketSegement": "分销散客",
+      "marketType": "携程",
+      "marketPolicy": "包销返佣",
+      "marketCost": "2000",
+      "planRespond": "75%",
+      "planSuccess": "95%",
+      "planIncre": "0.2",
+      "planIncome": "1000"
+    },
+    {
+      "area": "高考旅游",
+      "hotelName": "北京-五道口店",
+      "date": "2020-05-01",
+      "productName": "单人房",
+      "marketSegement": "直销散客",
+      "marketType": "APP",
+      "marketPolicy": "降价促销",
+      "marketCost": "1000",
+      "planRespond": "20%",
+      "planSuccess": "50%",
+      "planIncre": "0.06",
+      "planIncome": "300"
+    },{
+      "area": "清凉一夏",
+      "hotelName": "北京-五道口店",
+      "date": "2020-05-01",
+      "productName": "单人房",
+      "marketSegement": "旅行社散客",
+      "marketType": "国旅",
+      "marketPolicy": "包销返佣",
+      "marketCost": "4000",
+      "planRespond": "90%",
+      "planSuccess": "95%",
+      "planIncre": "0.1",
+      "planIncome": "1800"
+    },{
+      "area": "5月假日季",
+      "hotelName": "北京-五道口店",
+      "date": "2020-05-01",
+      "productName": "单人房",
+      "marketSegement": "直销散客",
+      "marketType": "小程序",
+      "marketPolicy": "降价促销",
+      "marketCost": "500",
+      "planRespond": "20%",
+      "planSuccess": "50%",
+      "planIncre": "0.04",
+      "planIncome": "200"
+    }
+  ]
+}

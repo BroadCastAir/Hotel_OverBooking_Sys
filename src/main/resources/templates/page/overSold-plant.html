@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>经营分析</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="${request.contextPath}/statics/lib/layui-v2.5.5/css/layui.css" media="all">
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/public.css" media="all">
+    <script src="${request.contextPath}/statics/js/echarts.min.js" charset="utf-8"></script>
+    <script src="${request.contextPath}/statics/lib/layui/layui.js" charset="utf-8"></script>
+    <script src="${request.contextPath}/statics/js/common.js" charset="utf-8"></script>
+    <script src="${request.contextPath}/statics/js/overSold-plant.js" charset="utf-8"></script>
+    <script src="${request.contextPath}/statics/js/ecStat.min.js" charset="utf-8"></script>
+    <script src="${request.contextPath}/statics/js/dataTool.min.js" charset="utf-8"></script>
+    <style>
+        @font-face{
+            font-family: yjsz;
+            src:url('${request.contextPath}/statics/lib/fonts/yjsz.TTF')
+        }
+        .title > h3{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 0 0 5px 10px;
+        }
+        .title > span{
+            font-size: 16px;
+            padding: 0 0 4px 10px;
+            inline-size: 28px;
+        }
+        .title > div{
+            padding: 0 0 6px 5px;
+        }
+        .dataDiv{
+            height: 25%;
+            width: 100%;
+            text-align: center;
+        }
+        .dataDiv > h3{
+            font-size: 15px;
+            margin: 0 0 10px 0;
+            color: #00a2d4;
+        }
+        .dataDiv > span{
+            font-size: 30px;
+            font-family: 'yjsz';
+            color: #1aa094;
+        }
+        .revenueDiv{
+            height: 50%;
+            width: 100%;
+            text-align: center;
+            line-height: 60px;
+        }
+        .revenueDiv > h3{
+            font-size: 18px;
+            margin: 0 0 10px 0;
+            color: #00a2d4;
+        }
+        .revenueDiv > span{
+            font-size: 30px;
+            font-family: 'yjsz';
+            color: #1aa094;
+        }
+    </style>
+</head>
+<body class="layuimini-all">
+    <div class="layui-layout layui-layout-admin">
+        <div class="layuimini-container layuimini-page-anim" style="margin-top: -10px">
+            <div class="layuimini-main" >
+                <div class="layui-row layui-col-space15" style="height: 500px;">
+                    <div class="layui-row layui-col-space15" style="height: 100%;padding-left: 40px">
+                        <div class="layui-col-xs7 layui-col-md7" style="height: 100%;">
+                            <div class="layui-row" style="height: 16%;">
+                                <div class="layui-col-md-12 title" style="height:100%; width: 100%;">
+                                    <h3>&nbsp;</h3>
+                                    <span>no-show situation</span>
+                                </div>
+                            </div>
+                            <div class="layui-row" style="height: 84%;">
+                                <div class="layui-col-md-12" style="height:100%; width: 100%;">
+                                    <div class="layui-col-xs2" style="height: 100%;">
+                                        <div class="revenueDiv">
+                                            <h3>noshow number</h3>
+                                            <span>425</span>
+                                        </div>
+                                        <div class="revenueDiv">
+                                            <h3>Loss of profit</h3>
+                                            <span>45196.16</span>
+                                        </div>
+                                    </div>
+                                    <div class="layui-col-xs10" style="height: 100%;">
+                                        <div id="revenueHomeStat" style="height: 100%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-col-xs5 layui-col-md5" style="height: 100%;padding-left: 30px;border-left: solid 1px #f0f0f0">
+                            <div class="layui-row" style="height: 16%;">
+                                <div class="layui-col-md-12 title" style="height:100%; width: 100%;">
+                                    <h3>&nbsp;</h3>
+                                    <span>The day of the week is related to no-show</span>
+                                </div>
+                            </div>
+                            <div class="layui-row" style="height: 84%;">
+                                <div class="layui-row" style="height: 100%;border-bottom: solid 1px #f0f0f0">
+                                    <div style="height: 100%" id="hotelBenchStat"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <hr class="layui-bg-green">
+            <div class="layui-row layui-col-space15" style="height: 500px;">
+                <div class="layui-row layui-col-space15" style="height: 100%;padding-left: 40px">
+                    <div class="layui-col-xs6" style="height: 100%;">
+                        <div class="layui-row" style="height: 16%;">
+                            <div class="layui-col-md-12 title" style="height:100%; width: 100%;">
+                                <h3>&nbsp;</h3>
+                                <span>Ratio of stay days to customer base</span>
+                            </div>
+                        </div>
+                        <div class="layui-row" style="height: 84%;border-bottom: solid 1px #f0f0f0">
+                            <div id="checkOutTimeStat" style="height: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="layui-col-xs6" style="height: 100%;">
+                        <div class="layui-row" style="height: 16%;">
+                            <div class="layui-col-md-12 title" style="height:100%; width: 100%;">
+                                <h3>&nbsp;</h3>
+                                <span>Number of NOSHOW by country in that year</span>
+                            </div>
+                        </div>
+                        <div class="layui-row" style="height: 84%;border-bottom: solid 1px #f0f0f0">
+                            <div id="countriesNoshow" style="height: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="layui-bg-green">
+            <div class="layui-row layui-col-space15" style="height: 500px;">
+                <div class="layui-row layui-col-space15" style="height: 100%;padding-left: 40px">
+                    <div class="layui-col-xs6" style="height: 100%;padding-left: 30px;border-left: solid 1px #f0f0f0">
+                        <div class="layui-row" style="height: 16%;">
+                            <div class="layui-col-md-12 title" style="height:100%; width: 100%;">
+                                <h3>&nbsp;</h3>
+                                <span>March/April 2017 - Price trends, occupancy</span>
+                            </div>
+                        </div>
+                        <div class="layui-row" style="height: 84%;">
+                            <div class="layui-row" style="height: 100%;border-bottom: solid 1px #f0f0f0">
+                                <div style="height: 100%" id="noShowPredict"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-col-xs6" style="height: 100%;padding-left: 30px;border-left: solid 1px #f0f0f0">
+                        <div class="layui-row" style="height: 16%;">
+                            <div class="layui-col-md-12 title" style="height:100%; width: 100%;">
+                                <h3>&nbsp;</h3>
+                                <span>Noshow number and forecast</span>
+                            </div>
+                        </div>
+                        <div class="layui-row" style="height: 84%;">
+                            <div class="layui-row" style="height: 100%;border-bottom: solid 1px #f0f0f0">
+                                <div style="height: 100%" id="OrderPayTypeStat"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="layui-bg-green">
+            <div class="layui-row layui-col-space15" style="height: 500px;">
+                <div class="layui-row layui-col-space15" style="height: 100%;padding-left: 40px">
+                    <div class="layui-row" style="height: 16%;">
+                        <div class="layui-col-md-12 title" style="height:100%; width: 100%;">
+                            <h3>&nbsp;</h3>
+                            <span>Noshow number and price of each channel</span>
+                        </div>
+                    </div>
+                    <div style="height: 100%" id="NoshowAndPrice"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

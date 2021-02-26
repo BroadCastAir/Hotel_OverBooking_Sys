@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="${request.contextPath}/statics/lib/layui-v2.5.5/css/layui.css" media="all">
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/public.css" media="all">
+    <link rel="stylesheet" href="${request.contextPath}/statics/css/simple-calendar.css" media="all">
+</head>
+<body>
+<div class="layuimini-container layuimini-page-anim">
+    <div class="layuimini-main">
+        <div class="layuimini-container layuimini-page-anim">
+            <div class="wx-body">
+                <div id='calendar'></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="${request.contextPath}/statics/lib/layui-v2.5.5/layui.js" charset="utf-8"></script>
+<script src="${request.contextPath}/statics/js/echarts.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="${request.contextPath}/statics/js/jquery.min.js"></script>
+<script type="text/javascript" src="${request.contextPath}/statics/js/simple-calendar.js"></script>
+<script type="text/javascript" src="${request.contextPath}/statics/js/main.js"></script>
+<script>
+    layui.use(['form', 'table', 'element', 'layer', 'laydate'], function () {
+        var $ = layui.jquery,
+            form = layui.form,
+            table = layui.table,
+            layer = layui.layer, laydate = layui.laydate;
+        //日期
+        laydate.render({
+            elem: '#date'
+            , type: 'month'
+        });
+
+        // 监听搜索操作
+        form.on('submit(data-search-btn)', function (data) {
+            var result = JSON.stringify(data.field);
+            layer.alert(result, {
+                title: '最终的搜索信息'
+            });
+
+
+            return false;
+        });
+
+
+    });
+</script>
+</body>
+</html>

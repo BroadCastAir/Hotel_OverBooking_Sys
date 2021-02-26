@@ -1,0 +1,127 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 1000,
+  "data": [
+    {
+      "id": 1,
+      "username": "user0",
+      "truename": "user",
+      "logdesc": "用户登录0",
+      "ipaddress": "192.168.0.1",
+      "systemid": 255,
+      "logins": 24,
+      "notedate": "2019-12-31 12:12:12",
+      "logtype": "登录",
+      "score": 57
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "truename": "user",
+      "logdesc": "用户登录1",
+      "ipaddress": "192.168.0.2",
+      "systemid": 884,
+      "logins": 58,
+      "notedate": "2019-12-31 12:12:12",
+      "logtype": "登录",
+      "score": 27
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "truename": "user",
+      "logdesc": "操作",
+      "ipaddress": "192.168.0.3",
+      "systemid": 650,
+      "logins": 77,
+      "notedate": "2019-12-31 12:12:12",
+      "logtype": "操作",
+      "score": 31
+    },
+    {
+      "id": 4,
+      "username": "user3",
+      "truename": "user",
+      "logdesc": "用户登录3",
+      "ipaddress": "192.168.0.4",
+      "systemid": 362,
+      "logins": 157,
+      "notedate": "2019-12-31 12:12:12",
+      "logtype": "登录",
+      "score": 68
+    },
+    {
+      "id": 5,
+      "username": "user4",
+      "truename": "user",
+      "logdesc": "操作",
+      "ipaddress": "192.168.0.5",
+      "systemid": 807,
+      "logins": 51,
+      "notedate":"2019-12-31 12:12:12",
+      "logtype": "操作",
+      "score": 6
+    },
+    {
+      "id": 6,
+      "username": "user5",
+      "truename": "user",
+      "logdesc": "操作",
+      "ipaddress": "192.168.0.6",
+      "systemid": 173,
+      "logins": 68,
+      "notedate": "2019-12-31 12:12:12",
+      "logtype": "操作",
+      "score": 87
+    },
+    {
+      "id": 7,
+      "username": "user6",
+      "truename": "user",
+      "logdesc": "用户登录6",
+      "ipaddress": "192.168.0.7",
+      "systemid": 982,
+      "logins": 37,
+      "notedate": "2019-12-31 12:12:12",
+      "logtype": "登录",
+      "score": 34
+    },
+    {
+      "id": 8,
+      "username": "user7",
+      "truename": "user",
+      "logdesc": "用户登录7",
+      "ipaddress": "192.168.0.8",
+      "systemid": 727,
+      "logins": 150,
+      "notedate": "2019-12-31 12:12:12",
+      "logtype": "登录",
+      "score": 28
+    },
+    {
+      "id": 9,
+      "username": "user8",
+      "truename": "user",
+      "logdesc": "用户登录8",
+      "ipaddress": "192.168.0.9",
+      "systemid": 951,
+      "logins": 133,
+      "notedate": "2019-12-31 12:12:12",
+      "logtype": "登录",
+      "score": 14
+    },
+    {
+      "id": 10,
+      "username": "user9",
+      "truename": "user",
+      "logdesc": "用户登录9",
+      "ipaddress": "192.168.0.10",
+      "systemid": 484,
+      "logins": 25,
+      "notedate": "2019-12-31 12:12:12",
+      "logtype": "登录",
+      "score": 75
+    }
+  ]
+}

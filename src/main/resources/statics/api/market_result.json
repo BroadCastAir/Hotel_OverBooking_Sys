@@ -1,0 +1,65 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 4,
+  "data": [
+    {
+      "area": "5月假日季",
+      "hotelName": "北京-五道口店",
+      "marketType": "携程",
+      "productName": "Single",
+      "sellNum": "分销散客",
+      "sellForecast": "3500",
+      "forecastOffset": "2500",
+      "exeNum": "1800",
+      "successNum": "1200",
+      "exeSuccessNum": "1000",
+      "startDate": "2020-05-10",
+      "endDate": "2020-05-24",
+      "status": "0"
+    },
+    {
+      "area": "高考旅游",
+      "hotelName": "北京-五道口店",
+      "marketType": "同程",
+      "productName": "Double",
+      "sellNum": "分销散客",
+      "sellForecast": "2000",
+      "forecastOffset": "1800",
+      "exeNum": "1300",
+      "successNum": "1000",
+      "exeSuccessNum": "800",
+      "startDate": "2020-05-10",
+      "endDate": "2020-05-24",
+      "status": "0"
+    },{
+      "area": "清凉一夏",
+      "hotelName": "北京-五道口店",
+      "marketType": "中青旅",
+      "productName": "Suit",
+      "sellNum": "旅行社散客",
+      "sellForecast": "2500",
+      "forecastOffset": "2000",
+      "exeNum": "1800",
+      "successNum": "1200",
+      "exeSuccessNum": "1000",
+      "startDate": "2020-05-10",
+      "endDate": "2020-05-24",
+      "status": "1"
+    },{
+      "area": "5月假日季",
+      "hotelName": "北京-五道口店",
+      "marketType": "中青旅",
+      "productName": "双人间",
+      "sellNum": "旅行社散客",
+      "sellForecast": "1000",
+      "forecastOffset": "900",
+      "exeNum": "600",
+      "successNum": "500",
+      "exeSuccessNum": "200",
+      "startDate": "2020-05-10",
+      "endDate": "2020-05-24",
+      "status": "2"
+    }
+  ]
+}

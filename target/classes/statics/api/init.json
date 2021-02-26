@@ -1,0 +1,54 @@
+{
+  "homeInfo": {
+    "title": "主页",
+    "href": "page/shouye.html"
+  },
+  "logoInfo": {
+    "title": "inter-sys",
+    "image": "",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "HomePage",
+          "href": "page/shouye.html",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+        {
+          "title": "inter-sys",
+          "href": "",
+          "icon": "fa fa-usd",
+          "target": "_self",
+          "child": [
+            {
+              "title": "overbooked",
+              "href": "page/overSold.html",
+              "icon": "layui-icon layui-icon-chart-screen",
+              "target": "_self"
+            },
+            {
+              "title": "instrument-plant",
+              "href": "page/overSold-plant.html",
+              "icon": "layui-icon layui-icon-chart-screen",
+              "target": "_self"
+            },
+            {
+              "title": "forecast",
+              "href": "page/forecast.html",
+              "icon": "layui-icon layui-icon-chart-screen",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}
