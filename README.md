@@ -40,12 +40,9 @@ $ mvn spring-boot:run
 
 #### Running the application with Executable JAR
 
-The code can also be built into a jar and then executed/run. Once the jar is built, run the jar by double clicking on it or by using the command 
+The code can also be built into a jar and then executed/run. Once the jar is built, run the jar by double clicking on it or by using the command (see in Pre-release)
 
 ```shell
-$ git clone https://github.com/BroadCastAir/Hotel_OverBooking_Sys.git
-$ cd Hotel_OverBooking_Sys
-$ mvn package -DskipTests
 $ java -jar inter-sys-0.0.1-SNAPSHOT.jar --spring.profiles.active=test
 ```
 
